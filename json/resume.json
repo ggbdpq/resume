@@ -10,11 +10,17 @@
     "HTML/CSS：HTML5、CSS3，Less、Sass、Tailwind CSS、rem、em、vw、vh、媒体查询",
     "JavaScript/TypeScript：JavaScript、TypeScript、ES6+、Promise、async/await、Proxy、模块化等",
     "网络请求/协议：HTTP、HTTPS、同源策略、跨域请求、AJAX、Fetch、Axios、HTTP缓存策略、CDN优化",
-    "Vue技术栈：Vue2、Vue3、Vue Router、Pinia、Vuex、Composition API",
-    "React技术栈：React18、React Router、Zustand、Redux、Hooks API、Next.js",
+    "Vue：Vue2、Vue3、Vue Router、Pinia、Vuex、Composition API",
+    "React：React18、React Router、Zustand、Redux、Hooks API、Next.js",
     "可视化开发：Canvas、SVG、ECharts",
-    "代码质量与构建：Husky、Prettier、ESlint、Webpack、Babel、Vite",
-    "其他专业技能：前端性能优化技巧、Electron、小程序、Git、Cursor",
+    "微信小程序/跨平台开发：原生小程序开发、Uniapp、Taro、Electron",
+    "代码质量：Husky、Prettier、ESlint",
+    "构建工具：Webpack、Babel、Vite、SWC、Esbuild",
+    "Linux服务器：pm2、前端项目部署、处理跨域、Nginx进行反向代理和负载均衡、CI/CD",
+    "其他专业技能：前端性能优化技巧、Git",
+    "熟练使用Cursor、Claude、Gemini、Augment、MCP等工具，热于探索新工具",
+    "掌握Python基础语法，了解Agent框架，对AI Agent领域有浓厚兴趣",
+    "了解SSE、langChain、SSG、WASM、Rust等前沿技术",
     "个人博客：https://www.yuque.com/ggbdpq/blog"
   ],
   "education": {
@@ -51,6 +57,31 @@
   ],
   "projects": [
     {
+      "name": "医疗影像诊断工作站",
+      "stack": "Vue3、Element Plus、Vite、Electron、Pinia、TailwindCSS、Axios、Sass。",
+      "duty": [
+        "跨平台开发：利用Electron框架实现Web与桌面应用无缝融合，通过自定义协议实现与第三方影像查看器的深度集成，解决医学影像查看与报告编辑的分离问题。",
+        "高效组件封装：基于Element Plus开发一系列医疗专用组件，包括报告模板系统、影像布局组件和图像采集组件，提高报告编写效率30%以上。",
+        "医疗工作流优化：设计实现完整的医疗影像诊断工作流，支持患者管理、检查申请、图像采集、报告编辑、审核与打印等核心功能，实现医疗流程的无纸化和标准化。",
+        "现代化团队协作：引入Commitizen、Husky和ESLint等工具规范代码提交和质量，通过自动化工具提升团队协作效率，建立完善的前端工程化流程。",
+        "集成与扩展：实现与HIS（医院信息系统）无缝对接，支持医学影像数据的导入导出，为医院提供可扩展的影像诊断解决方案，已在多家三甲医院成功部署应用。"
+      ]
+    },
+    {
+      "name": "眼底彩照报告生成系统",
+      "stack": "前端使用Vue3、Element Plus、Vite、Pinia、Sass；后端使用Node.js、Express、Puppeteer、PM2。",
+      "duty": [
+        "高并发报告处理引擎：设计实现基于Node.js和Puppeteer的高性能报告生成服务，采用工作进程池和队列机制，实现每秒处理10+份复杂健康报告的能力，比传统解决方案提速300%。",
+        "微服务架构：将报告系统拆分为数据处理服务、模板管理、渲染服务和存储服务，通过Docker容器化部署，保证系统稳定性和可伸缩性。",
+        "模板系统开发：设计可视化健康报告模板编辑系统，支持拖拽式编辑和代码式编辑双重模式，使非技术人员也能快速创建专业报告模板。",
+        "性能优化：通过图像智能压缩、资源缓存、懒加载等技术优化报告加载速度，配合Node.js流式处理，使大型报告渲染时间减少60%。",
+        "数据可视化：集成ECharts实现丰富的健康数据可视化图表，包括趋势对比、风险评估等多维度展示，提升报告阅读体验。",
+        "自适应布局：实现响应式设计，确保报告在不同设备上都有最佳显示效果，支持打印和PDF导出功能。",
+        "系统对接：与多家医院HIS系统和体检中心系统无缝对接，实现检查数据自动导入和报告分发，每月处理超过2000份健康报告。",
+        "资源优化：针对大规模报告生成场景，实现了Puppeteer资源复用和智能回收机制，显著降低服务器内存占用，保障高峰期系统稳定性。"
+      ]
+    },
+    {
       "name": "业务监控预警平台",
       "stack": "React18、TypeScript、Shineout、Fetch、React Router、Redux。",
       "duty": [
@@ -76,6 +107,27 @@
       ]
     },
     {
+      "name": "智能随身物品柜管理平台",
+      "stack": "Vue2、Vuex、Vue Router、Element UI、Axios、Sass、Mock。",
+      "duty": [
+        "高度定制化组件库：基于Element UI进行二次封装，构建符合业务需求的通用组件，提高代码开发效率。",
+        "前端架构设计：实现模块化开发，合理划分API接口，设计Vuex状态管理，提高代码可维护性和扩展性。",
+        "性能优化：采用懒加载、组件复用和数据缓存策略，减少不必要的请求和渲染，页面加载速度提升50%。",
+        "权限管理：基于RBAC模型实现多级权限控制，封装权限指令，支持按钮级别的精细化权限管理。",
+        "持续集成交付：通过Jenkins实现自动化持续集成流程CI/CD，确保代码质量和快速迭代。"
+      ]
+    },
+    {
+      "name": "数聚网关管理平台",
+      "stack": "Vue2、Vuex、Vue Router、Element UI、Axios、Sass、Mock。",
+      "duty": [
+        "前端架构设计：采用模块化开发理念，合理规划项目结构，实现组件复用和业务解耦，提高代码可维护性和可扩展性。",
+        "网关监控预警：设计实时监控模块，对网关状态、数据流量异常进行预警，减少系统故障率约40%。",
+        "数据可视化：集成ECharts图表库，开发多样化数据看板和监控面板，实现网关流量、数据转换效率等关键指标的直观展示。",
+        "持续集成部署：使用Jenkins构建自动化部署流程，规范代码提交和审核流程，提高项目迭代速度。"
+      ]
+    },
+    {
       "name": "涉案财物管理系统",
       "stack": "Vue3、ElementPlus、Axios、Sass、Mock。",
       "duty": [
@@ -84,6 +136,59 @@
         "用户参与度提升：通过优化用户界面和个性化功能，显著提升用户参与度和用户粘性。",
         "优化效率提升：性能优化措施使应用性能提升超过30%，用户满意度增加55%。",
         "持续集成交付：通过Jenkins实现自动化持续集成流程CI/CD，确保代码质量和快速迭代。"
+      ]
+    },
+        {
+      "name": "研判平台",
+      "stack": "基于 Vue3 + Element UI + Axios + Sass + Webpack 技术栈开发的研判平台。",
+      "duty": [
+        "独立负责了日志管理、用户管理、未实名人员、已实名人员、流动人口信息和常住人口信息等业务模块。",
+        "参与开会讨论项目的需求，交互需求，接口的设计方案，vue 等框架的使用。",
+        "使用路由守卫，根据用户权限，不同权限动态渲染菜单栏。",
+        "负责项目打包部署、版本维护、生产 Bug的修复等。",
+        "对复用组件进行抽取封装，提高程序的可维护性。"
+      ]
+    },
+    {
+      "name": "启明大数据商情系统",
+      "stack": "Vue3、TDesign、Sass、TypeScript。",
+      "duty": [
+        "项目核心: 利用Vue3构建高性能SPA，实现流畅用户体验和即时页面响应。",
+        "统一代码规范: 通过EditorConfig、Prettier、ESLint、Commitizen、Commitlint、husky制定统一代码规范，提高代码质量。",
+        "性能优化：采用防抖节流优化搜索框和滚动监听，使用虚拟列表和懒加载优化筛选列表，加快首页加载速度。",
+        "自动化部署与持续集成：实施Jenkins自动化部署和持续集成流程，确保代码质量和快速迭代。"
+      ]
+    },
+        {
+      "name": "财务管理系统",
+      "stack": "基于 React + Antd + Dva + Less + Webpack 技术栈开发的内部财务管理系统。",
+      "duty": [
+        "主要负责了流水分发管理、邮件模板、用户管理和角色管理，项目信息维护等功能模块。",
+        "参与和协助了海外多层表单管理的开发。",
+        "参与并负责了整个项目全量按钮权限工作，并协助后台有效设置权限控制。",
+        "完成数据统计模块，使⽤Echarts图表⼯具制作数据图。"
+      ]
+    },
+    {
+      "name": "智能电源箱平台及移动端App",
+      "stack": "基于 Vue2 + Vuex + Vue-Router + Sass + Webpack 技术栈开发的智能电源箱管理系统",
+      "duty": [
+        "主要负责了设备的状态展示、设备二维码录入、物料添加、地图内容和登陆模块，拓扑图编辑展示等业务模块。",
+        "使用Vue作为项目框架，Element UI作为前端框架，通过Vue-Router做路由开发，实现登录和菜单的权限管理。",
+        "使⽤了Vue-cli3作为项⽬脚⼿架，在此基础上使⽤了prerender-spa-plugin做了预渲染处理、⽣产模式下使⽤。",
+        "CDN引⼊库⽂件来减少打包体积、开启gzip压缩来提⾼访问速度、通过conﬁg⽂件载⼊不同环境变量的组件，来提⾼开发效率。",
+        "线上版本App使⽤了Dcloud H5 + API配合Vue实现了扫码和定位等业务模块的开发。",
+        "负责与测试人员沟通，修改 Bug， 项目后期维护与迭代优化升级"
+      ]
+    },
+    {
+      "name": "交换机平台PC端、移动端和小程序",
+      "stack": "基于 Vue2 + Element UI + Axios + Sass + Webpack 技术栈开发的交换机平台系统",
+      "duty": [
+        "主要负责了交换机等远程开发、远程端⼝开发、设备录⼊、状态显示、拓扑图、登陆以及权限管理等业务模块。",
+        "使⽤Vue-cli搭建项⽬框架、Element UI作为前端开发框架、Axios作为请求库，通过Sass来构建CSS。",
+        "项⽬开发中使⽤过 Cube UI 移动端框架，提⾼开发效率。",
+        "项⽬开发中使⽤了Uniapp开发移动端和⼩程序。"
       ]
     }
   ]
