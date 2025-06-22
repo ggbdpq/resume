@@ -1,0 +1,90 @@
+{
+  "user": {
+    "name": "关天豪",
+    "phone": "18819888094",
+    "email": "ggbdpq@gmail.com",
+    "link": "https://github.com/ggbdpq",
+    "head": "/img/ggbdpq.png"
+  },
+  "skills": [
+    "HTML/CSS：HTML5、CSS3，Less、Sass、Tailwind CSS、rem、em、vw、vh、媒体查询",
+    "JavaScript/TypeScript：JavaScript、TypeScript、ES6+、Promise、async/await、Proxy、模块化等",
+    "网络请求/协议：HTTP、HTTPS、同源策略、跨域请求、AJAX、Fetch、Axios、HTTP缓存策略、CDN优化",
+    "Vue技术栈：Vue2、Vue3、Vue Router、Pinia、Vuex、Composition API",
+    "React技术栈：React18、React Router、Zustand、Redux、Hooks API、Next.js",
+    "可视化开发：Canvas、SVG、ECharts",
+    "代码质量与构建：Husky、Prettier、ESlint、Webpack、Babel、Vite",
+    "其他专业技能：前端性能优化技巧、Electron、小程序、Git、Cursor",
+    "个人博客：https://www.yuque.com/ggbdpq/blog"
+  ],
+  "education": {
+    "school": "东莞理工学院",
+    "major": "全日制本科",
+    "time": "2014.09 - 2018.06"
+  },
+  "experiences": [
+    {
+      "company": "唯智医疗科技（佛山）有限公司",
+      "time": "2025.03 - 2025.05",
+      "content": [
+        "独立负责医疗健康前端项目开发，基于Electron开发跨平台桌面应用，实现与第三方影像查看器的深度集成，为医院提供一体化解决方案。",
+        "设计并实现了基于Vue3的医疗报告模板系统，支持医院自定义各类专业报告格式。"
+      ]
+    },
+    {
+      "company": "广州希音国际进出口有限公司",
+      "time": "2022.12 - 2025.02",
+      "content": [
+        "推进落地团队研发规范，把控团队敏捷开发流程，跨团队沟通协作高效推动业务迭代。",
+        "主导开发通用React UI组件，减少了项目迭代周期。",
+        "推广React和TypeScript的最佳实践，加速团队技术能力提升。"
+      ]
+    },
+    {
+      "company": "深圳市德奥信息技术有限公司",
+      "time": "2018.07 - 2022.11",
+      "content": [
+        "引导团队开发多功能的后台管理系统，包括封装高阶UI组件，大大缩短了开发周期。",
+        "参与并主导了公司的多个核心项目，维护老项目，对复杂项目进行重构和技术优化，解决项目历史遗留问题。"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "业务监控预警平台",
+      "stack": "React18、TypeScript、Shineout、Fetch、React Router、Redux。",
+      "duty": [
+        "统一代码规范：指定React代码规范和最佳实践，包括分支管理、代码提交规范、组件规范和数据请求统一管理，确保团队高效协作。",
+        "项目管理：指导前端团队的日常工作，监督项目进度，确保按时交付高质量产品。",
+        "组件和Hooks封装：封装高效可复用组件和内部的Hooks工具库(如useFilterForm、useDomHeight、useNextTick等等)，提高开发效率和代码质量。"
+      ]
+    },
+    {
+      "name": "预算管控平台",
+      "stack": "React16.8、Shineout、Fetch、React Router、Redux、Echarts",
+      "duty": [
+        "跨部门合作：与UI设计师、产品经理、测试及后端团队紧密合作，项目期间多次召开产品、技术、测试评审和各种研讨会议，确保前端实现符合公司战略性目标和用户业务需求。",
+        "用户体检：通过用户调研和前端反馈，不断完善用户使用细节，优化API的数据结构，用户满意度提高了30%，前端开发效率提升了25%。此系统在公司内部供应链供多个部门领导使用。"
+      ]
+    },
+    {
+      "name": "研发运营管理平台",
+      "stack": "React16.8、Shineout、Fetch、React Router、Redux、Echarts。",
+      "duty": [
+        "报表与数据分析：整合ECharts进行数据可视化，提供实时数据报表，辅助决策支持，提升管理层决策效率。",
+        "性能优化：采用懒加载、组件复用和数据缓存策略，减少不必要的请求和渲染，页面加载速度提升50%。"
+      ]
+    },
+    {
+      "name": "涉案财物管理系统",
+      "stack": "Vue3、ElementPlus、Axios、Sass、Mock。",
+      "duty": [
+        "高度定制的UI组件库: 对Element Plus进行深度定制和封装，开发企业级UI组件库，灵活应用于多个后台管理系统，提升开发和维护效率。",
+        "人员资源优化: 高度可复用的组件库和CLI工具使用使前端团队效率提升2倍，减少20%加班需求，降低项目开发成本。",
+        "用户参与度提升：通过优化用户界面和个性化功能，显著提升用户参与度和用户粘性。",
+        "优化效率提升：性能优化措施使应用性能提升超过30%，用户满意度增加55%。",
+        "持续集成交付：通过Jenkins实现自动化持续集成流程CI/CD，确保代码质量和快速迭代。"
+      ]
+    }
+  ]
+}
